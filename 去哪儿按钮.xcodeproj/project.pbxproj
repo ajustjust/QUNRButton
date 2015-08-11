@@ -14,6 +14,11 @@
 		1A1024D91B54DFD2000B0321 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A1024D81B54DFD2000B0321 /* Images.xcassets */; };
 		1A1024DC1B54DFD2000B0321 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A1024DA1B54DFD2000B0321 /* LaunchScreen.xib */; };
 		1A1024E81B54DFD2000B0321 /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A1024E71B54DFD2000B0321 /* _____Tests.m */; };
+		1A1024F31B54E11A000B0321 /* QunrButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A1024F21B54E11A000B0321 /* QunrButton.m */; };
+		1A1024F51B54E3F9000B0321 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A1024F41B54E3F9000B0321 /* icon.png */; };
+		1A1024F71B54E7E0000B0321 /* qunr.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A1024F61B54E7E0000B0321 /* qunr.png */; };
+		1A1024FB1B550E5D000B0321 /* zw.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A1024FA1B550E5D000B0321 /* zw.png */; };
+		1A224BEF1B789EF000F95502 /* zw副本.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A224BEE1B789EF000F95502 /* zw副本.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +45,12 @@
 		1A1024E11B54DFD2000B0321 /* 去哪儿按钮Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "去哪儿按钮Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A1024E61B54DFD2000B0321 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A1024E71B54DFD2000B0321 /* _____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____Tests.m"; sourceTree = "<group>"; };
+		1A1024F11B54E11A000B0321 /* QunrButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QunrButton.h; sourceTree = "<group>"; };
+		1A1024F21B54E11A000B0321 /* QunrButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QunrButton.m; sourceTree = "<group>"; };
+		1A1024F41B54E3F9000B0321 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		1A1024F61B54E7E0000B0321 /* qunr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qunr.png; sourceTree = "<group>"; };
+		1A1024FA1B550E5D000B0321 /* zw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zw.png; sourceTree = "<group>"; };
+		1A224BEE1B789EF000F95502 /* zw副本.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zw副本.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +92,17 @@
 		1A1024CA1B54DFD2000B0321 /* 去哪儿按钮 */ = {
 			isa = PBXGroup;
 			children = (
+				1A1024F11B54E11A000B0321 /* QunrButton.h */,
+				1A1024F21B54E11A000B0321 /* QunrButton.m */,
 				1A1024CF1B54DFD2000B0321 /* AppDelegate.h */,
 				1A1024D01B54DFD2000B0321 /* AppDelegate.m */,
 				1A1024D21B54DFD2000B0321 /* ViewController.h */,
 				1A1024D31B54DFD2000B0321 /* ViewController.m */,
 				1A1024D51B54DFD2000B0321 /* Main.storyboard */,
+				1A1024F61B54E7E0000B0321 /* qunr.png */,
+				1A1024FA1B550E5D000B0321 /* zw.png */,
+				1A224BEE1B789EF000F95502 /* zw副本.png */,
+				1A1024F41B54E3F9000B0321 /* icon.png */,
 				1A1024D81B54DFD2000B0321 /* Images.xcassets */,
 				1A1024DA1B54DFD2000B0321 /* LaunchScreen.xib */,
 				1A1024CB1B54DFD2000B0321 /* Supporting Files */,
@@ -199,9 +216,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A224BEF1B789EF000F95502 /* zw副本.png in Resources */,
 				1A1024D71B54DFD2000B0321 /* Main.storyboard in Resources */,
+				1A1024FB1B550E5D000B0321 /* zw.png in Resources */,
+				1A1024F51B54E3F9000B0321 /* icon.png in Resources */,
 				1A1024DC1B54DFD2000B0321 /* LaunchScreen.xib in Resources */,
 				1A1024D91B54DFD2000B0321 /* Images.xcassets in Resources */,
+				1A1024F71B54E7E0000B0321 /* qunr.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +243,7 @@
 				1A1024D41B54DFD2000B0321 /* ViewController.m in Sources */,
 				1A1024D11B54DFD2000B0321 /* AppDelegate.m in Sources */,
 				1A1024CE1B54DFD2000B0321 /* main.m in Sources */,
+				1A1024F31B54E11A000B0321 /* QunrButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +440,7 @@
 				1A1024ED1B54DFD2000B0321 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1A1024EE1B54DFD2000B0321 /* Build configuration list for PBXNativeTarget "去哪儿按钮Tests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +449,7 @@
 				1A1024F01B54DFD2000B0321 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

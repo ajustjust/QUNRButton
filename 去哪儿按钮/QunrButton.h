@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface Qubutton : UIButton
+@interface QunrButton : UIButton
 
 @end

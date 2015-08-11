@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "QunrButton.h"
 @interface ViewController ()
 
 @end
@@ -16,12 +16,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+   
+    //添加去哪儿网样式按钮
+    QunrButton * qu = [[QunrButton alloc]init];
+    qu.frame = CGRectMake(40, 50, 70, 70);
+    [qu setBackgroundImage:[UIImage imageNamed:@"qunr"] forState:UIControlStateNormal];
+   
+  
+      [self.view addSubview:qu];
+    
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 @end
