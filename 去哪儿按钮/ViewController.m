@@ -18,12 +18,12 @@
     [super viewDidLoad];
    
     //添加去哪儿网样式按钮
-    QunrButton * qu = [[QunrButton alloc]init];
-    qu.frame = CGRectMake(40, 50, 70, 70);
-    [qu setBackgroundImage:[UIImage imageNamed:@"qunr"] forState:UIControlStateNormal];
-   
-  
-      [self.view addSubview:qu];
+    QunrButton * quBtn = [[QunrButton alloc]init];
+    quBtn.frame = CGRectMake(100, 200, 70, 70);
+    [quBtn setBackgroundImage:[UIImage imageNamed:@"qunr"] forState:UIControlStateNormal];
+    
+    
+    [self.view addSubview:quBtn];
     
 }
 
