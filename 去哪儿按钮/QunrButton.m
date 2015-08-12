@@ -4,7 +4,7 @@
 //
 //  Created by xxzx on 15/7/14.
 //  Copyright (c) 2015年 hxyxt. All rights reserved.
-//
+//试试看git
 
 #import "QunrButton.h"
 #define cent_x self.bounds.size.width
